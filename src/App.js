@@ -14,6 +14,7 @@ import Register from './pages/Home/Register/Register';
 
 
 import Services from './pages/Home/Services/Services';
+import PrivateRoute from './pages/Home/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
      <Route exact path='/'> <Home></Home> </Route>
        <Route exact path='/home'> <Home></Home> </Route>
        <Route path='/contact'> <Contact></Contact></Route>
-       <Route path='/team'> <Team></Team></Route>
+       <PrivateRoute path='/team'> <Team></Team></PrivateRoute>
        <Route path='/login'> <LogIn></LogIn> </Route>
        <Route path='/register'> <Register/></Route>
        <Route path='/services'><Services></Services></Route>
