@@ -1,0 +1,14 @@
+.service{
+    background-color: rgb(245, 243, 241);
+   margin: 20px;
+   padding: 20px;
+   border: 1px solid gray;
+   border-radius: 8px;
+   
+}
+.service img{
+    width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+}
